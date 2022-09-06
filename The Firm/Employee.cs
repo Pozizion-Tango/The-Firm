@@ -33,7 +33,7 @@ namespace The_Firm
           this.Name = "Carl";
             this.Surname = "Carson";
             this.CPR = "1234567-8910";
-
+           
             Console.WriteLine("Employee: " + this.Name + " " + this.Surname + " " + this.CPR);
             Manager manager = new Manager();
             manager.Info();
